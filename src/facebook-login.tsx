@@ -68,9 +68,6 @@ export default function FacebookLogin(props: FacebookLoginProps) {
         handleButtonClick();
         return;
       }
-      if (isRedirected === true && useRedirect) {
-        requestLogin();
-      }
     };
   };
 
